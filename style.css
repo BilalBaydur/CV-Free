@@ -1,0 +1,187 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}  
+
+p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.Main{            
+    width: 850px;
+    min-height: 2405x;
+    margin: auto;  
+    padding: 0px;  
+    /*box-shadow: 3px 3px 8px  gray;   */     
+}
+
+.Left{
+    position: relative;
+    float: left;
+    width: 30%;
+    min-height: 2405px;
+    background-color: #2b98de;            
+
+}
+
+.Left img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.Left span{   
+    display: block;                       
+}
+
+
+.Left .Group{
+    color: white;
+    margin-top: 20px;;
+}
+
+
+.Left .Group h1{
+    background-color: #227ab2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   /* font-size: 20px;*/
+    padding-left: 10px;        
+}
+
+.Left .Group div{
+    padding-left: 10px;  
+    margin-top: 10px;      
+}
+
+.Left .Group div h3{
+    margin: 0px;
+                    
+}
+
+.Left .Group ul{             
+    padding-left: 25px;
+    list-style-type: disc;
+                 
+}
+.Left .Group li{             
+    padding-bottom: 3px;
+                 
+}
+
+
+
+
+.Right{
+    position: relative;
+    float: right;
+    width: 68%;
+    min-height: 2405px;
+    background-color: white;
+    color: gray;
+    padding-left: 5px;
+    padding-right: 5px;                             
+}
+
+.Right .Summary{
+    padding-top: 20px;
+    padding-bottom: 20px;;
+}
+
+.Right h1{
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding: 0 5 0 5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2b98de;
+}
+
+.Right .Work{
+    padding: 0px;
+    display: flex; justify-content: space-around;
+    margin-bottom: 20px;  
+                     
+}
+
+.Right .Work .Date{    
+    width: 25%;
+}
+.Right .Work .Content{    
+    width: 75%;
+}
+
+.Right .Work .Content ul{    
+    padding-left: 15px;
+}
+
+.Right .Work .Content span{
+    display: block;
+}
+
+
+
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;                
+}
+
+.White{
+    color: white;            
+}
+.Black{
+    color: black;
+
+}
+.font-48{
+    font-size: 48px;
+}
+
+.font-32{
+    font-size: 32px;
+}
+.font-20{
+    font-size: 20px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+.Bold{
+    font-weight: bold;
+}
+.ml-10{
+    margin-left: 10px;;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-60{
+    margin-bottom: 30px;
+}
+
+
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
